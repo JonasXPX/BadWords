@@ -1,0 +1,9 @@
+name: BadWords
+main: me.jonasxpx.badwords.BadWords
+version: 0.01
+depend: [Legendchat]
+author: JonasXPX
+website: www.endcraft.com.br
+commands:
+   badwords:
+      description: Recarrega o plugin
