@@ -5,7 +5,6 @@ import me.jonasxpx.badwords.BadWords;
 
 public class ManagerBadWords {
 
-	
 	public static boolean isBadWord(String menssage){
 			for(String bad : BadWords.getBadWords()){
 				if(menssage.toLowerCase().contains(bad.toLowerCase())){
