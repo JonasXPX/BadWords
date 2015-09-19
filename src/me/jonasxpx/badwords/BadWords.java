@@ -73,6 +73,7 @@ public class BadWords extends JavaPlugin{
 	}
 
 	protected void forceReload(){
+		reloadConfig();
 		loadBadWords();
 		loadIgnoredChannels();
 		defaultTime = getConfig().getInt("TempoMinimo");
