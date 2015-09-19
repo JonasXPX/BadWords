@@ -7,7 +7,7 @@ public class ManagerBadWords {
 
 	public static boolean isBadWord(String menssage){
 			for(String bad : BadWords.getBadWords()){
-				if(menssage.toLowerCase().contains(bad.toLowerCase())){
+				if(menssage.toLowerCase().replaceAll(".", "").contains(bad.toLowerCase())){
 					return true;
 				}
 			}
@@ -17,7 +17,7 @@ public class ManagerBadWords {
 	public static String getBadWords(String menssage){
 		StringBuilder sb = new StringBuilder();
 		for(String bad : BadWords.getBadWords()){
-			if(menssage.toLowerCase().contains(bad.toLowerCase())){
+			if(menssage.toLowerCase().replaceAll(".", "").contains(bad.toLowerCase())){
 				sb.append(bad + ", ");
 			}
 		}
