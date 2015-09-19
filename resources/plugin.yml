@@ -1,6 +1,6 @@
 name: BadWords
 main: me.jonasxpx.badwords.BadWords
-version: 0.01
+version: 0.05
 depend: [Legendchat]
 author: JonasXPX
 website: www.endcraft.com.br
