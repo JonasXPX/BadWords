@@ -11,6 +11,7 @@ public class ManagerPlayer {
 		return false;
 	}
 	
+	
 	/**
 	 * @param player
 	 * @return caso retorne -1 é defido a falta de regitro do jogador;

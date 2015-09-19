@@ -7,9 +7,11 @@ import org.bukkit.command.CommandSender;
 public class CommandReload implements CommandExecutor{
 
 	private BadWords plugin;
+	
 	public CommandReload(BadWords bad){
 		this.plugin = bad;
 	}
+	
 	
 	@Override
 	public boolean onCommand(CommandSender sender, Command arg1, String arg2,

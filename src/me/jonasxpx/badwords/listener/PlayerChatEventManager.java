@@ -12,6 +12,7 @@ import br.com.devpaulo.legendchat.api.events.ChatMessageEvent;
 
 public class PlayerChatEventManager implements Listener{
 
+
 	@EventHandler(priority = EventPriority.LOWEST)
 	public void playerChatEvent(ChatMessageEvent ev){
 		if(ev.getSender().isOp() || BadWords.getIgnoredChannels().contains(ev.getChannel().getName().toLowerCase()))

@@ -20,6 +20,7 @@ public class BadWords extends JavaPlugin{
 	private static List<String> channels = null;
 	public static int defaultTime = 0;
 
+
 	@Override
 	public void onEnable() {
 		if(getServer().getPluginManager().getPlugin("Legendchat") == null){
